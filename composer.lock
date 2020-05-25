@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60b4b6382773ac1b5d829be1e7149de0",
+    "content-hash": "a00aae5dfc6f4cc54dfc2e06f0fb7999",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -53,7 +53,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
             },
             "dist": {
@@ -1292,6 +1292,36 @@
             "time": "2020-03-16T08:53:15+00:00"
         },
         {
+            "name": "php7lab/yii2-legacy",
+            "version": "dev-task-1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php7lab/yii2-legacy",
+                "reference": "f922dec274ce2d8d7f44b31b26391af16b76d8ff"
+            },
+            "type": "extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2rails\\": "src\\yii2rails",
+                    "yii2bundle\\": "src\\yii2bundle",
+                    "yii2extension\\": "src\\yii2extension",
+                    "yii2tool\\": "src\\yii2tool",
+                    "yubundle\\": "src\\yubundle",
+                    "RocketLab\\": "src\\rocket-php-lab"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yamshikov Vitaliy",
+                    "email": "theyamshikov@yandex.ru"
+                }
+            ],
+            "time": "2020-05-25T15:36:33+00:00"
+        },
+        {
             "name": "psr/container",
             "version": "dev-master",
             "source": {
@@ -1477,78 +1507,6 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
-        },
-        {
-            "name": "rocket-php-lab/yii2-bundle",
-            "version": "v0.0.10",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/rocket-php-lab/yii2-bundle.git",
-                "reference": "90c76ccf9d96b2b44ef75b3f480d27ea1d162f39"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/rocket-php-lab%2Fyii2-bundle/repository/archive.zip?sha=90c76ccf9d96b2b44ef75b3f480d27ea1d162f39",
-                "reference": "90c76ccf9d96b2b44ef75b3f480d27ea1d162f39",
-                "shasum": ""
-            },
-            "require": {
-                "php7lab/core": "v0.0.5"
-            },
-            "type": "extension",
-            "autoload": {
-                "psr-4": {
-                    "RocketLab\\Bundle\\": "src",
-                    "RocketLab\\Bundle\\Tests\\": "tests"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Yamshikov Vitaliy",
-                    "email": "theyamshikov@yandex.ru"
-                }
-            ],
-            "time": "2020-05-20T04:00:11+00:00"
-        },
-        {
-            "name": "rocket-php-lab/yii2-legacy",
-            "version": "v0.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/rocket-php-lab/yii2-legacy.git",
-                "reference": "dbc255d5139ae282aabfe47904e01890d4122043"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/rocket-php-lab%2Fyii2-legacy/repository/archive.zip?sha=dbc255d5139ae282aabfe47904e01890d4122043",
-                "reference": "dbc255d5139ae282aabfe47904e01890d4122043",
-                "shasum": ""
-            },
-            "type": "extension",
-            "autoload": {
-                "psr-4": {
-                    "yii2rails\\": "src\\yii2rails",
-                    "yii2bundle\\": "src\\yii2bundle",
-                    "yii2extension\\": "src\\yii2extension",
-                    "yii2tool\\": "src\\yii2tool",
-                    "yubundle\\": "src\\yubundle"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Yamshikov Vitaliy",
-                    "email": "theyamshikov@yandex.ru"
-                }
-            ],
-            "time": "2020-05-08T14:19:11+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1846,16 +1804,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/inflector.git",
-                "reference": "ad32211d0fd980a5bf4c30d483d80c291e02ef31"
+                "reference": "8e2e8bb1bf146c624626a144d100f76e59c893b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/inflector/zipball/ad32211d0fd980a5bf4c30d483d80c291e02ef31",
-                "reference": "ad32211d0fd980a5bf4c30d483d80c291e02ef31",
+                "url": "https://api.github.com/repos/symfony/inflector/zipball/8e2e8bb1bf146c624626a144d100f76e59c893b8",
+                "reference": "8e2e8bb1bf146c624626a144d100f76e59c893b8",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5",
+                "php": ">=7.2.5",
                 "symfony/deprecation-contracts": "^2.1",
                 "symfony/string": "^5.1"
             },
@@ -1911,7 +1869,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-16T12:09:30+00:00"
+            "time": "2020-05-20T17:44:07+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2644,16 +2602,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-access.git",
-                "reference": "f6a51bd76a3a5c36c57221a4f491b9cf02663672"
+                "reference": "44832294a9872e3f60a93f24d1a037ea02cc379f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/property-access/zipball/f6a51bd76a3a5c36c57221a4f491b9cf02663672",
-                "reference": "f6a51bd76a3a5c36c57221a4f491b9cf02663672",
+                "url": "https://api.github.com/repos/symfony/property-access/zipball/44832294a9872e3f60a93f24d1a037ea02cc379f",
+                "reference": "44832294a9872e3f60a93f24d1a037ea02cc379f",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": ">=7.1.3",
                 "symfony/inflector": "^3.4|^4.0|^5.0"
             },
             "require-dev": {
@@ -2717,7 +2675,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-15T15:55:41+00:00"
+            "time": "2020-05-23T15:44:24+00:00"
         },
         {
             "name": "symfony/serializer",
@@ -2893,16 +2851,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "bd36f61f332df0960309ea75a07ec1405e9f3fbb"
+                "reference": "5a3def001d333ffba82085f63efb575f09a9c724"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/bd36f61f332df0960309ea75a07ec1405e9f3fbb",
-                "reference": "bd36f61f332df0960309ea75a07ec1405e9f3fbb",
+                "url": "https://api.github.com/repos/symfony/string/zipball/5a3def001d333ffba82085f63efb575f09a9c724",
+                "reference": "5a3def001d333ffba82085f63efb575f09a9c724",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5",
+                "php": ">=7.2.5",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
@@ -2970,7 +2928,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-16T12:09:30+00:00"
+            "time": "2020-05-20T17:44:07+00:00"
         },
         {
             "name": "symfony/translation",
@@ -6253,11 +6211,13 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "php7lab/yii2-legacy": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6.0"
+        "php": ">=7.2"
     },
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
