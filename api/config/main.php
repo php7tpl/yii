@@ -56,13 +56,13 @@ return [
         'urlManager' => [
             'showScriptName' => false,
             'rules' => array_merge(
-                include __DIR__ . '/../../vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/geo/api/config/routes.php',
-                include __DIR__ . '/../../vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/account/api/v3/config/routes.php',
-                include __DIR__ . '/../../vendor/rocket-php-lab/yii2-bundle/src/Dashboard/Api/config/routes.php',
+                include __DIR__ . '/../../vendor/php7lab/yii2-legacy/src/yii2bundle/geo/api/config/routes.php',
+                include __DIR__ . '/../../vendor/php7lab/yii2-legacy/src/yii2bundle/account/api/v3/config/routes.php',
+                include __DIR__ . '/../../vendor/php7lab/yii2-legacy/src/rocket-php-lab/Bundle/Dashboard/Api/config/routes.php',
                 include __DIR__ . '/../../Packages/RestClient/Yii/Api/config/routes.php',
-                include __DIR__ . '/../../vendor/rocket-php-lab/yii2-legacy/src/yubundle/storage/api/config/routes.php',
-                include __DIR__ . '/../../vendor/rocket-php-lab/yii2-legacy/src/yubundle/reference/api/config/routes.php',
-                include __DIR__ . '/../../vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/rbac/api/config/routes.php'
+                include __DIR__ . '/../../vendor/php7lab/yii2-legacy/src/yubundle/storage/api/config/routes.php',
+                include __DIR__ . '/../../vendor/php7lab/yii2-legacy/src/yubundle/reference/api/config/routes.php',
+                include __DIR__ . '/../../vendor/php7lab/yii2-legacy/src/yii2bundle/rbac/api/config/routes.php'
             ),
         ],
         'formatter' => [
