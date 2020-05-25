@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: High Vill
+description: ""
+documentation:
+ - title: Введение
+   content: !include ../../../../vendor/zndoc/rest-api/src/traits/intro.markdown
+version: v1
+protocols: [ HTTP, HTTPS ]
+baseUri: http://api.example.com/api/v1
+mediaType: [ application/json ]
+securitySchemes: !include ../../../../vendor/zndoc/rest-api/src/securitySchemes/index.raml
+traits: !include ../../../../vendor/zndoc/rest-api/src/traits/index.raml
+
+/auth: !include ../../../../vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/account/api/v3/docs/auth/api.raml
+#/registration: !include ../../../../vendor/yii2bundle/yii2-account/src/api/v3/docs/registration/api.raml
+#/security: !include ../../../../vendor/yii2bundle/yii2-account/src/api/v3/docs/security/api.raml
+
+/city: !include ../../../../vendor/rocket-php-lab/yii2-legacy/src/yii2bundle/geo/api/docs/city/api.raml
