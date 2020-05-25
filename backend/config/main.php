@@ -10,7 +10,6 @@ return [
         'error' => 'yii2bundle\error\module\Module',
         'user' => 'yii2bundle\account\module\Module',
         'storage' => 'yubundle\storage\web\Module',
-        //'admin' => include('bridge.php'),
     ],
     'components' => [
         'request' => [
@@ -33,16 +32,8 @@ return [
             'errorAction' => 'error/error/error',
         ],
         'urlManager' => [
-            /*'class' => 'RocketLab\Bundle\App\Components\UrlManager',
-            'languages' => [
-                'Russian' => 'ru',
-                'English' => 'en',
-            ],*/
             'rules' => [
             ],
         ],
-        /*'bridge' => [
-            'class' => Bridge\Core\BridgeComponent::class
-        ],*/
     ],
 ];
