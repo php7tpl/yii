@@ -4,24 +4,24 @@
 
 ## Тестовый
 
-* `test-api.rest-client.rf` - API
-* `test-admin.rest-client.rf` - Admin
-* `test-web.rest-client.rf` - Frontend
-* `test.rest-client.rf` - SPA
+* `test-api.yii.tpl` - API
+* `test-admin.yii.tpl` - Admin
+* `test-web.yii.tpl` - Frontend
+* `test.yii.tpl` - SPA
 
 ## Боевой
 
-* `api.rest-client.rf` - API
-* `rest-client.rf` - SPA
+* `api.yii.tpl` - API
+* `yii.tpl` - SPA
 
 ## Локальный
 
-* `api.rest-client.rf` - API
-* `admin.rest-client.rf` - Admin
-* `rest-client.rf` - SPA
+* `api.yii.tpl` - API
+* `admin.yii.tpl` - Admin
+* `yii.tpl` - SPA
 
 ## Пути для доменов
 
-* `api.rest-client.rf` - api/web
-* `admin.rest-client.rf` - backend/web
-* `rest-client.rf` - frontend/web
+* `api.yii.tpl` - api/web
+* `admin.yii.tpl` - backend/web
+* `yii.tpl` - frontend/web

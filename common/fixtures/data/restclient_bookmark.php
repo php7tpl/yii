@@ -216,7 +216,7 @@ return [
 		'method' => 'put',
 		'uri' => 'rest-project/1',
 		'query_data' => '[]',
-		'body_data' => '{"name":"self","title":"Self","url":"http:\\/\\/rest-client.rf\\/api\\/v1"}',
+		'body_data' => '{"name":"self","title":"Self","url":"http:\\/\\/yii.tpl\\/api\\/v1"}',
 		'header_data' => '[]',
 		'authorization' => 'moderator',
 		'description' => 'REST-клиент. Изменить проект',

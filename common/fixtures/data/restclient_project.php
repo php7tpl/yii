@@ -5,7 +5,7 @@ return [
 		'id' => 1,
 		'name' => 'self',
 		'title' => 'Self',
-		//'url' => 'http://rest-client.rf/api/v1',
+		//'url' => 'http://yii.tpl/api/v1',
 		'status' => 1,
 	],
 	[
@@ -26,7 +26,7 @@ return [
 		'id' => 4,
 		'name' => 'highvill',
 		'title' => 'highvill',
-		//'url' => 'http://rest-client.rf/api/v1',
+		//'url' => 'http://yii.tpl/api/v1',
 		'status' => 1,
 	],
 ];
