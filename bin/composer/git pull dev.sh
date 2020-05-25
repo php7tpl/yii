@@ -20,7 +20,4 @@ git clone "git@github.com:php7bundle/user.git" "php7bundle-dev/user"
 
 git clone "git@github.com:zndoc/rest-api.git" "zndoc-dev/rest-api"
 
-git clone "git@gitlab.com:rocket-php-lab/yii2-bridge-core.git" "rocket-php-lab-dev/yii2-bridge-core"
-git clone "git@gitlab.com:rocket-php-lab/yii2-bridge-slug.git" "rocket-php-lab-dev/yii2-bridge-slug"
-git clone "git@gitlab.com:rocket-php-lab/yii2-bundle.git" "rocket-php-lab-dev/yii2-bundle"
-git clone "git@gitlab.com:rocket-php-lab/yii2-legacy.git" "rocket-php-lab-dev/yii2-legacy"
+git clone "git@github.com:php7lab/yii2-legacy.git" "php7lab-dev/yii2-legacy"

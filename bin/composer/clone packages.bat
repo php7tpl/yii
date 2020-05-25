@@ -1,20 +1,26 @@
 @echo off
 
-cd ../..
+cd ../../vendor
 
-git clone https://github.com/php7lab/bundle.git vendor/php7lab_dev/bundle
-git clone https://github.com/php7lab/core.git vendor/php7lab_dev/core
-git clone https://github.com/php7lab/dev.git vendor/php7lab_dev/dev
-git clone https://github.com/php7lab/eloquent.git vendor/php7lab_dev/eloquent
-git clone https://github.com/php7lab/rest.git vendor/php7lab_dev/rest
-git clone https://github.com/php7lab/sandbox.git vendor/php7lab_dev/sandbox
-git clone https://github.com/php7lab/test.git vendor/php7lab_dev/test
+git clone "git@github.com:php7lab/core.git" "php7lab-dev/core"
+git clone "git@github.com:php7lab/eloquent.git" "php7lab-dev/eloquent"
+git clone "git@github.com:php7lab/bundle.git" "php7lab-dev/bundle"
+git clone "git@github.com:php7lab/dev.git" "php7lab-dev/dev"
+git clone "git@github.com:php7lab/rest.git" "php7lab-dev/rest"
+git clone "git@github.com:php7lab/sandbox.git" "php7lab-dev/sandbox"
+git clone "git@github.com:php7lab/test.git" "php7lab-dev/test"
+git clone "git@github.com:php7lab/web.git" "php7lab-dev/web"
 
-git clone https://gitlab.com/rocket-php-lab/yii2-bridge-core.git vendor/rocket-php-lab_dev/yii2-bridge-core
-git clone https://gitlab.com/rocket-php-lab/yii2-bridge-slug.git vendor/rocket-php-lab_dev/yii2-bridge-slug
-git clone https://gitlab.com/rocket-php-lab/yii2-bundle.git vendor/rocket-php-lab_dev/yii2-bundle
-git clone https://gitlab.com/rocket-php-lab/yii2-legacy.git vendor/rocket-php-lab_dev/yii2-legacy
+git clone "git@github.com:php7bundle/article.git" "php7bundle-dev/article"
+git clone "git@github.com:php7bundle/crypt.git" "php7bundle-dev/crypt"
+git clone "git@github.com:php7bundle/notify.git" "php7bundle-dev/notify"
+git clone "git@github.com:php7bundle/queue.git" "php7bundle-dev/queue"
+git clone "git@github.com:php7bundle/reference.git" "php7bundle-dev/reference"
+git clone "git@github.com:php7bundle/storage.git" "php7bundle-dev/storage"
+git clone "git@github.com:php7bundle/user.git" "php7bundle-dev/user"
 
-git clone https://github.com/zndoc/rest-api.git vendor/zndoc_dev/rest-api
+git clone "git@github.com:zndoc/rest-api.git" "zndoc-dev/rest-api"
+
+git clone "git@gitlab.com:php7lab/yii2-legacy.git" "php7lab-dev/yii2-legacy"
 
 pause
